@@ -36,7 +36,7 @@
 
 ### PHP и MySQL
 3. Что не так в этом коде, как бы вы его переписали.
-```
+```php
 $data = get_data_from_tovar_table($some_condition);  					// внутри функции SQL запрос к таблице товаров для выборки
 foreach($data as $item) {
     $tovar_data[$item['id']] = get_tovar_properties_data($item['id']);	// внутри функции SQL запрос к таблице свойств товаров
